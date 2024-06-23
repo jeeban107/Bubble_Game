@@ -21,22 +21,27 @@ html,body{
 .main{
     height: 100%;
     width: 100%;
-    background-color: rgb(154, 214, 154);
+    background-color: rgb(183, 225, 250);
+    background-image:url("Water\ Bubbles\ Background.png");
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .pannel{
     height: 90%;
     width: 80%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.555);
+    backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .p-top{
-    background-color: rgb(88, 119, 88);
+    background-color: rgb(17, 89, 117);
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 80px;
     align-items: center;
@@ -52,7 +57,7 @@ html,body{
     padding:5px 10px;
     background-color: #fff;
     border-radius: 5px;
-    color: rgb(46, 77, 46);
+    color: rgb(17, 89, 117);
     font-size: 15px;
     font-weight: 700;
 }
@@ -84,19 +89,19 @@ html,body{
 .p-btm h1{
     font-size: 60px;
     font-weight: 800;
-    color: #587758;
+    color: rgb(17, 89, 117);
 }
 .p-btm h3{
     display: flex;
     font-size: 40px;
     font-weight: 800;
-    color: #587758;
+    color:  rgb(17, 89, 117);
 }
 
 .sc{
     font-size: 40px;
     font-weight: 800;
-    color: #587758; 
+    color: rgb(17, 89, 117); 
 }
 
 .bubble{
@@ -107,11 +112,10 @@ html,body{
     width: 40px;
     color: white;
     border-radius: 50%;
-    background-color: rgb(61, 114, 61);   
-
+    background-color: rgb(17, 89, 117);
 }
 
 .bubble:hover{
-    background-color: rgb(44, 75, 44);
+    background-color:rgb(68, 142, 171);
     cursor: pointer;
 }
