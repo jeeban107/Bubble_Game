@@ -22,7 +22,7 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: rgb(183, 225, 250);
-    background-image:url("Water\ Bubbles\ Background.png");
+    background-image:url("assets/Water\ Bubbles\ Background.png");
     background-size: contain;
     display: flex;
     justify-content: center;
