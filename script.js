@@ -1,3 +1,17 @@
+var time = 60;
+var score= 0;
+
+function increaseScore(){
+     
+}
+
+
+function newHit(){
+  var rn = Math.floor(Math.random()*10);
+  document.querySelector("#newhit").innerHTML= rn;
+}
+
+
 function makeBubble() {
   var cultter = "";
 
@@ -8,16 +22,19 @@ function makeBubble() {
   document.querySelector(".p-btm").innerHTML = cultter;
 }
 
-var time = 4;
 
 function runTimer() {
-  setInterval(function () {
+  var timerInv =setInterval(function () {
     if (time > 0) {
       time--;
       document.querySelector("#timer").textContent = time;
     }
+    else{
+        clearInterval(timerInv)
+    }
   }, 1000);
 }
 
+newHit();
 runTimer();
 makeBubble();
