@@ -79,7 +79,7 @@ html,body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     width: 100%;
     height: calc(100% - 80px);
     padding: 15px;
