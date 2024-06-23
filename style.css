@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: Gilroy;
-  src: url(gilroy/Gilroy-Regular.ttf);
+  src: url(assets/gilroy/Gilroy-Regular.ttf);
 }
 
 *{
@@ -78,7 +78,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
