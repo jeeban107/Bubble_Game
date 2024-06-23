@@ -71,11 +71,32 @@ html,body{
 
 .p-btm{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
     height: calc(100% - 80px);
     padding: 15px;
+}
+
+.p-btm h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #587758;
+}
+.p-btm h3{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #587758;
+}
+
+.sc{
+    font-size: 40px;
+    font-weight: 800;
+    color: #587758; 
 }
 
 .bubble{
