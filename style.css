@@ -1,0 +1,96 @@
+
+@font-face {
+  font-family: Gilroy;
+  src: url(gilroy/Gilroy-Regular.ttf);
+}
+
+*{
+    font-family: Gilroy;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(154, 214, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pannel{
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.p-top{
+    background-color: rgb(88, 119, 88);
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25%;
+    color: white;
+    gap: 10px;
+}
+
+
+.box{
+    padding:5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(46, 77, 46);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.elem{ 
+    display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.elem h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.p-btm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 15px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(61, 114, 61);   
+
+}
+
+.bubble:hover{
+    background-color: rgb(44, 75, 44);
+    cursor: pointer;
+}
